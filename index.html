@@ -95,6 +95,7 @@
                     </h2>
 
                     <h3 class="features__subtitle">Жорсткий напівпричеп</h3>
+
                     <div class="features__description-wrapper">
                         <p class="features__description">
                             При несанкціонованому відкритті задніх воріт спрацьовує сирена для
@@ -144,11 +145,12 @@
                         </li>
                     </ul>
 
-                    <p class="features__description">
+                    <p class="features__description-last">
                         Система <span lang="en-US">LEX</span> підключена до пульту моніторингу й
                         охорони рухомих об’єктів. Оператори цілодобово обробляють сигнали тривоги та
-                        направляють до напівпричепу найближчий екіпаж групи швидкого реагування. У
-                        співпраці з нашими партнерами ми маємо одну з найбільших зон покриття в
+                        направляють до напівпричепу найближчий екіпаж групи швидкого реагування.<br />
+                        <br />
+                        У співпраці з нашими партнерами ми маємо одну з найбільших зон покриття в
                         Україні.
                     </p>
                 </div>
@@ -184,16 +186,21 @@
                         </button>
                     </div>
 
-                    <p class="prices__description">
-                        У вартість входить також встановлення та налаштування обладнання
-                        спеціалістами компанії
-                        <span lang="en-US">LEX</span>.
-                    </p>
-                    <p class="prices__description">
-                        Актуальність цін можна дізнатись у менеджера. Розмір щомісячної абонентської
-                        плати за підключення до пульту моніторингу та охорони обговорюється
-                        індивідуально.
-                    </p>
+                    <div class="prices__description-first">
+                        <p class="prices__description">
+                            У вартість входить також встановлення та налаштування обладнання
+                            спеціалістами компанії
+                            <span lang="en-US">LEX</span>.
+                        </p>
+                    </div>
+                    <br />
+                    <div class="prices__description-second">
+                        <p class="prices__description">
+                            Актуальність цін можна дізнатись у менеджера. Розмір щомісячної
+                            абонентської плати за підключення до пульту моніторингу та охорони
+                            обговорюється індивідуально.
+                        </p>
+                    </div>
                 </div>
             </section>
 
@@ -352,7 +359,6 @@
                             placeholder="Ім’я"
                             class="form__field"
                         />
-                        <br />
                         <input
                             id="form_phone"
                             type="text"
@@ -360,13 +366,72 @@
                             placeholder="Телефон"
                             class="form__field"
                         />
-                        <br />
                         <button type="submit" class="form__btn">ЗАМОВИТИ ДЗВІНОК</button>
                     </form>
                 </div>
             </section>
         </main>
 
-        <footer></footer>
+        <footer class="footer">
+            <!-- CONTACT -->
+            <section id="contact" class="contact">
+                <div class="container">
+                    <h2 class="visually-hidden">КОНТАКТИ</h2>
+                    <a href="mailto:sale@lex-project.com.ua" class="contact__mail link"
+                        >SALE@LEX-PROJECT.COM.UA</a
+                    >
+
+                    <ul class="contact__list list">
+                        <li class="contact__item">
+                            <svg class="contact__icon">
+                                <use href="./img/icons/sprite.svg#phone"></use>
+                            </svg>
+                            <a href="tel:+380668734323" class="contact__phone link"
+                                >+38(066)873-43-23</a
+                            >
+                            <a href="tel:+380680489198" class="contact__phone link"
+                                >+38(068)048-91-98</a
+                            >
+                        </li>
+
+                        <li class="contact__item">
+                            <svg class="contact__icon">
+                                <use href="./img/icons/sprite.svg#instagram"></use>
+                            </svg>
+                            <a
+                                href="https://www.instagram.com/lexproject_security/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="contact__instagram link"
+                                >exproject_security</a
+                            >
+                        </li>
+
+                        <li class="contact__item">
+                            <svg class="contact__icon">
+                                <use href="./img/icons/sprite.svg#location"></use>
+                            </svg>
+                            <address class="contact__address address">
+                                <a
+                                    href="https://goo.gl/maps/2PNohCZaL6iwGxEg8"
+                                    class="contact__address-link link"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    >Україна, м. Харків,<br />
+                                    вул. Плеханівська, 2/5</a
+                                >
+                            </address>
+                        </li>
+                    </ul>
+
+                    <!-- COPYRIGHT -->
+                    <div class="copyright">
+                        <p class="copyright__text">2021-2023 &#169; ТОВ "ЛЕКС-ПРОДЖЕКТ"</p>
+                        <p class="copyright__text">Всі права захищені</p>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <script src="./js/telegram.js"></script>
     </body>
 </html>
