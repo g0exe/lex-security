@@ -106,7 +106,7 @@ body {
 }
 
 .menu__item:not(:last-child) {
-    margin-bottom: 1px;
+    margin-bottom: 0.5px;
 }
 
 .menu__link {
@@ -142,9 +142,17 @@ body {
 }
 
 /* ===== HERO ===== */
+.main {
+    margin-top: -120px;
+}
+
 .hero {
-    padding-top: 10px;
+    padding-top: 120px;
     padding-bottom: 30px;
+    background-image: url(../img/mobile/hero-mobile.svg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
 }
 
 .hero__title {
@@ -245,6 +253,10 @@ body {
 .features {
     padding-top: 38px;
     padding-bottom: 40px;
+    background-image: url(../img/mobile/features-mobile.svg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .features__title {
@@ -359,6 +371,10 @@ body {
 .prices {
     padding-top: 35px;
     padding-bottom: 76px;
+    background-image: url(../img/mobile/prices-mobile.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .prices__title {
@@ -488,6 +504,10 @@ body {
 .services {
     padding-top: 20px;
     padding-bottom: 40px;
+    background-image: url(../img/mobile/services-mobile.svg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .services__title {
@@ -565,6 +585,10 @@ body {
 .feedback {
     padding-top: 38px;
     padding-bottom: 59px;
+    background-image: url(../img/mobile/feedback-mobile.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .feedback__title {
