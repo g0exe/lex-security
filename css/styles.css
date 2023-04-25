@@ -701,6 +701,11 @@ body {
     line-height: 1.2;
 }
 
+.contact__address-link {
+    vertical-align: top;
+    display: inline-block;
+}
+
 .contact__phone:not(:last-child) {
     margin-bottom: 5px;
 }
