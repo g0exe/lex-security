@@ -767,12 +767,16 @@ body {
     }
 
     .main {
-        margin-top: 0;
+        margin-top: -150px;
     }
 
     .hero {
-        padding-top: 18px;
+        padding-top: 150px;
         padding-bottom: 115px;
+        background-image: url(../img/tablet/hero-tablet.svg);
+        background-size: auto;
+        background-position: top;
+        background-repeat: no-repeat;
     }
 
     .hero__title {
@@ -826,10 +830,80 @@ body {
         line-height: 0.8;
     }
 
-    /* ===== Separator ===== */
     .separator {
         max-width: 985px;
-        top-border: 1px solid var(--main-content-color);
+        border-top: 1px solid var(--main-content-color);
         margin: 0 auto;
+    }
+
+    .features {
+        padding-top: 140px;
+        padding-bottom: 140px;
+        background-image: url(../img/tablet/features-tablet.svg);
+        background-size: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .features__title {
+        font-size: 30px;
+        line-height: 1;
+        margin-bottom: 70px;
+    }
+
+    .features__wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .features__wrapper + .features__wrapper {
+        margin-top: 68px;
+    }
+
+    .features__wrapper:last-child {
+        margin-top: 200px;
+    }
+
+    .features__subtitle {
+        font-size: 20px;
+        line-height: 0.8;
+        margin-left: 45px;
+    }
+
+    .features__subtitle:nth-of-type(-n + 2)::after {
+        content: '';
+        display: block;
+        width: 85px;
+        border: 1px solid #ffffff;
+        margin-left: 90px;
+    }
+
+    .features__description-wrapper:nth-of-type(1) {
+        margin-bottom: 0;
+    }
+
+    .features__description {
+        font-size: 13px;
+        line-height: 1.38;
+    }
+
+    .features__description-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        width: 443px;
+        height: 124px;
+        border: 1px solid #ffffff;
+        border-radius: 40px;
+        padding: 12px 20px;
+        margin-right: 38px;
+    }
+
+    .features__subtitle:nth-of-type(1),
+    .features__subtitle:nth-of-type(2),
+    .features__subtitle:nth-of-type(3) {
+        margin-bottom: 0;
     }
 }
