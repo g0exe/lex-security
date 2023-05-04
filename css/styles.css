@@ -735,6 +735,7 @@ body {
         padding-right: 18px;
     }
 
+    /* ===== HEADER|NAV ===== */
     .header {
         padding-top: 11px;
         padding-bottom: 18px;
@@ -770,6 +771,7 @@ body {
         margin-top: -150px;
     }
 
+    /* ===== HERO ===== */
     .hero {
         padding-top: 150px;
         padding-bottom: 115px;
@@ -795,11 +797,9 @@ body {
         width: 270px;
         height: 83px;
         border-radius: 40px;
-
         font-size: 20px;
         font-weight: 500;
         line-height: 1.35;
-
         margin-top: 15px;
         margin-right: 150px;
     }
@@ -836,6 +836,7 @@ body {
         margin: 0 auto;
     }
 
+    /* ===== FEATURES ===== */
     .features {
         padding-top: 140px;
         padding-bottom: 140px;
@@ -901,9 +902,208 @@ body {
         margin-right: 38px;
     }
 
-    .features__subtitle:nth-of-type(1),
-    .features__subtitle:nth-of-type(2),
-    .features__subtitle:nth-of-type(3) {
-        margin-bottom: 0;
+    /* ===== PRICES ===== */
+    .prices {
+        padding-top: 110px;
+        padding-bottom: 116px;
+        background-image: url(../img/tablet/prices-tablet.png);
+        background-size: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .prices__title {
+        font-size: 30px;
+        line-height: 1;
+        margin-bottom: 25px;
+    }
+
+    .prices__subtitle {
+        font-size: 20px;
+        line-height: 0.8;
+    }
+
+    .prices__separator {
+        width: 85px;
+        border: 1px solid #ffffff;
+    }
+
+    .prices__wrapper {
+        margin-left: 56px;
+        margin-right: 155px;
+    }
+
+    .prices__wrapper + .prices__wrapper {
+        margin-top: 75px;
+    }
+
+    .prices__wrapper:nth-of-type(2) {
+        margin-bottom: 70px;
+    }
+
+    .prices__button {
+        width: 248px;
+        height: 75px;
+        border-radius: 40px;
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    /* ===== PARTNERS ===== */
+    .partners {
+        padding-top: 140px;
+        padding-bottom: 150px;
+    }
+
+    .partners__title {
+        font-size: 30px;
+        line-height: 1;
+        margin-bottom: 60px;
+    }
+
+    .partners__item:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .partners__item {
+        width: 192px;
+        height: 109px;
+    }
+
+    /* ===== SERVICES ===== */
+    .services {
+        padding-top: 150px;
+        padding-bottom: 245px;
+        background-image: url(../img/tablet/services-tablet.svg);
+        background-size: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .services__title {
+        font-size: 30px;
+        line-height: 1;
+        margin-bottom: 60px;
+    }
+
+    .services__subtitle {
+        font-size: 25px;
+        line-height: 1.36;
+    }
+
+    .services__item {
+        font-size: 13px;
+        line-height: 1.38;
+    }
+
+    .services__item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .services__item-nmbr {
+        font-size: 23px;
+        line-height: 1.34;
+        margin-right: 25px;
+    }
+
+    .services__description {
+        font-size: 13px;
+        line-height: 1.38;
+    }
+
+    .services__description-first {
+        width: 365px;
+        height: 46px;
+    }
+
+    .services__description-second {
+        width: 294px;
+        height: 54px;
+    }
+
+    /* ===== FEEDBACK ===== */
+    .feedback {
+        padding-top: 140px;
+        padding-bottom: 200px;
+        background-image: url(../img/tablet/feedback-tablet.png);
+        background-size: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .feedback__title {
+        font-size: 30px;
+        line-height: 1;
+        margin-bottom: 60px;
+    }
+
+    .form__field {
+        width: 450px;
+        height: 82px;
+        border: 2px solid var(--stroke-color);
+        border-radius: 40px;
+
+        font-size: 20px;
+        line-height: 0.8;
+
+        margin-bottom: 25px;
+    }
+
+    .form__btn {
+        width: 450px;
+        height: 82px;
+        border: var(--stroke-color);
+        border-radius: 40px;
+
+        font-size: 20px;
+        line-height: 1.35;
+
+        margin-top: 25px;
+    }
+
+    /* ===== CONTACT ===== */
+    .contact {
+        padding-top: 84px;
+    }
+
+    .contact__mail {
+        font-size: 40px;
+        line-height: 1.37;
+        margin-bottom: 100px;
+    }
+
+    .contact__list {
+        margin-bottom: 138px;
+    }
+
+    .contact__item:not(:last-child) {
+        margin-right: 97px;
+    }
+
+    .contact__icon {
+        width: 21px;
+        height: 22px;
+        margin-bottom: 58px;
+    }
+
+    .contact__phone,
+    .contact__instagram,
+    .contact__address-link {
+        font-size: 13px;
+        line-height: 1.1;
+    }
+
+    .contact__phone:not(:last-child) {
+        margin-bottom: 8px;
+    }
+
+    /* ===== COPYRIGHT ===== */
+    .copyright {
+        padding-bottom: 11px;
+    }
+
+    .copyright__text {
+        font-size: 8px;
+        line-height: 1.37;
     }
 }
