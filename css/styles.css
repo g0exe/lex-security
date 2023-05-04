@@ -945,6 +945,28 @@ body {
         line-height: 1.3;
     }
 
+    .prices__description {
+        font-size: 13px;
+        line-height: 1.38;
+    }
+
+    .prices__description-first {
+        width: 354px;
+        height: 36px;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .prices__description-second {
+        width: 326px;
+        height: 84px;
+        margin: 0;
+    }
+
+    .prices__description-wrapper {
+        margin-left: 586px;
+    }
+
     /* ===== PARTNERS ===== */
     .partners {
         padding-top: 140px;
