@@ -285,6 +285,10 @@ body {
     align-self: center;
 }
 
+.features__wrapper:last-child .features__subtitle::after {
+    display: none;
+}
+
 .features__description-wrapper {
     display: flex;
     justify-content: center;
