@@ -1686,6 +1686,11 @@ body {
         cursor: pointer;
     }
 
+    .form__btn:hover,
+    .form__btn:focus {
+        background: linear-gradient(94.87deg, #b620e0 -22.41%, #0e44fc 103.54%);
+    }
+
     /* ===== CONTACT ===== */
     .contact {
         padding-top: 150px;
