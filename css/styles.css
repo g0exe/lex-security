@@ -1074,7 +1074,6 @@ body {
     }
 
     .services__description-wrapper {
-        /* width: 100%; */
         order: 2;
         grid-column: 1;
         position: absolute;
@@ -1591,9 +1590,21 @@ body {
         margin-bottom: 60px;
     }
 
+    .services__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* две колонки равной ширины */
+    }
+
     .services__subtitle {
         font-size: 30px;
         line-height: 1.36;
+        grid-column: 1;
+        margin-left: 64px;
+    }
+
+    .services__list {
+        grid-column: 2 / 3;
+        margin-left: 85px;
     }
 
     .services__item {
@@ -1611,6 +1622,14 @@ body {
         margin-right: 30px;
     }
 
+    .services__description-wrapper {
+        order: 2;
+        grid-column: 1;
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 64px;
+    }
+
     .services__description {
         font-size: 16px;
         line-height: 1.37;
@@ -1619,16 +1638,14 @@ body {
     .services__description-first {
         width: 362px;
         height: 66px;
+        margin-left: 0;
         margin-bottom: 20px;
     }
 
     .services__description-second {
         width: 365px;
         height: 66px;
-    }
-
-    .services__description:not(:last-child) {
-        margin-bottom: 20px;
+        margin-left: 0;
     }
 
     /* ===== FEEDBACK ===== */
