@@ -369,7 +369,7 @@ body {
     padding-bottom: 76px;
     background-image: url(../img/mobile/prices-mobile.png);
     background-size: auto;
-    background-position: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -583,7 +583,7 @@ body {
     padding-bottom: 59px;
     background-image: url(../img/mobile/feedback-mobile.png);
     background-size: auto;
-    background-position: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
