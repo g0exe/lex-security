@@ -1339,11 +1339,17 @@ body {
         height: 17px;
         vertical-align: middle;
         margin-left: 10px;
+        transition: transform 0.3s ease;
     }
 
     .hero__button:hover,
     .hero__button:focus {
         background: linear-gradient(94.87deg, #b620e0 -22.41%, #0e44fc 103.54%);
+    }
+
+    .hero__button:hover .btn__icon,
+    .hero__button:focus .btn__icon {
+        transform: rotate(45deg);
     }
 
     .hero__description {
@@ -1535,6 +1541,11 @@ body {
         background: linear-gradient(94.87deg, #b620e0 -22.41%, #0e44fc 103.54%);
     }
 
+    .prices__button:hover .btn__icon,
+    .prices__button:focus .btn__icon {
+        transform: rotate(45deg);
+    }
+
     .prices__description {
         font-size: 16px;
         line-height: 1.37;
@@ -1680,10 +1691,15 @@ body {
         border-radius: 40px;
         font-size: 25px;
         line-height: 1.36;
-
         margin-top: 25px;
 
         cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    .form__btn:hover .btn__icon,
+    .form__btn:focus .btn__icon {
+        transform: rotate(45deg);
     }
 
     .form__btn:hover,
