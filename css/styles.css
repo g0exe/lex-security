@@ -1281,7 +1281,7 @@ body {
         padding-top: 210px;
         padding-bottom: 140px;
         background-image: url(../img/desktop/hero-desktop.svg);
-        background-size: cover;
+        background-size: auto;
         background-position: top;
         background-repeat: no-repeat;
     }
@@ -1604,7 +1604,7 @@ body {
         padding-top: 150px;
         padding-bottom: 229px;
         background-image: url(../img/desktop/services-desktop.svg);
-        background-size: cover;
+        background-size: auto;
         background-position: center;
         background-repeat: no-repeat;
     }
